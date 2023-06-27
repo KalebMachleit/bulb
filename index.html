@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>bulb</title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+    <body>
+        <img src="https://img.icons8.com/?size=512&id=20522&format=png" id="offBulb" class="bulb">
+        <img src="https://img.icons8.com/?size=512&id=20523&format=png" id="onBulb" class="bulb">
+        <div id="controls">
+            <div id="lightSwitch" onclick="toggleLight()"></div>
+            <input type="range" id="dimmer" onchange="changeDim()" value="100">
+            <label for="dimmer"> Change Brightness </label>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>

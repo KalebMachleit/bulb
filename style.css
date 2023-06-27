@@ -1,0 +1,28 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .bulb {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    margin: auto;
+  }
+  
+  #onBulb {
+    visibility: none;
+    
+  }
+  
+  #lightSwitch {
+    background-image: url("https://media.istockphoto.com/id/486769476/vector/light-switch-on-white-background-vector-illustration.jpg?s=612x612&w=0&k=20&c=liKnnXrqwLHVqAbRwieyTrgws9it9avZTXPHgrzxDXI=");
+    background-size: cover;
+    width: 80px;
+    height: 125px;
+    transform: rotate(180deg);
+  }
+  
+  #controls {
+    margin-left: 200px;
+  }
